@@ -3,7 +3,7 @@
     "name": "hariroshan/elm-native",
     "summary": "Nativescript bindings to build mobile apps using elm",
     "license": "AGPL-3.0",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "exposed-modules": [
         "Native",
         "Native.Attributes",

@@ -25,8 +25,9 @@ import Native.Event as Event
 {-| Page takes onBackNavigation which should be used to SyncFrame
 
 Example
-SyncFrame bool ->
-( { model | rootFrame = Frame.handleBack bool model.rootFrame }, Cmd.none )
+
+    SyncFrame bool ->
+    ( { model | rootFrame = Frame.handleBack bool model.rootFrame }, Cmd.none )
 
 Page takes only one child
 
